@@ -54,12 +54,14 @@
     const price = priceText(it.price);
     const img = it.image
       ? `<img src="${esc(it.image)}" alt="${esc(it.name)}" width="300" height="300" loading="lazy" decoding="async">`
-      : '';
+      : '<div class="ph" role="img" aria-label="عتبة"><img src="images/logo.webp" alt="" width="120" height="95" loading="lazy"></div>';
     return `<li class="item">
       ${img}
       <h3>${esc(it.name)}</h3>
       ${it.nameEn ? `<p class="en">${esc(it.nameEn)}</p>` : ''}
+      ${it.description ? `<p class="desc">${esc(it.description)}</p>` : ''}
       ${price ? `<p class="price">${esc(price)}</p>` : ''}
+      ${it.calories ? `<p class="allergen">${esc(it.calories)} سعرة حرارية</p>` : ''}
       ${it.allergens ? `<p class="allergen">${esc(it.allergens)}</p>` : ''}
       ${opts.from ? `<a class="from" href="#${esc(opts.from.id)}">${esc(opts.from.name)}</a>` : ''}
     </li>`;
