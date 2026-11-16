@@ -6,8 +6,8 @@
       "name": "القهوة المقطرة",
       "nameEn": "Filter Coffee",
       "items": [
-        { "name": "قهوة مقطرة حارة", "nameEn": "Hot Filter Coffee", "price": null, "image": "images/products/drip-coffee/01.webp" },
-        { "name": "قهوة مقطرة باردة", "nameEn": "Iced Filter Coffee", "price": null, "image": "images/products/drip-coffee/02.webp" }
+        { "name": "فاخر", "nameEn": "Premium Filter Coffee", "price": 23, "image": "images/products/drip-coffee/02.webp" },
+        { "name": "كلاسيك", "nameEn": "Classic Filter Coffee", "price": 15, "image": "images/products/drip-coffee/02.webp" }
       ]
     },
     {
@@ -15,7 +15,10 @@
       "name": "اسبريسو",
       "nameEn": "Espresso",
       "items": [
-        { "name": "اسبريسو", "nameEn": "Espresso", "price": null, "image": "images/products/espresso/01.webp" },
+        { "name": "امريكانو", "nameEn": "Americano", "price": "10–12", "image": "images/products/drip-coffee/01.webp" },
+        { "name": "الفريدو", "nameEn": "Freddo", "price": 13 },
+        { "name": "اسبريسو فاخر", "nameEn": "Premium Espresso", "price": 18, "image": "images/products/espresso/01.webp" },
+        { "name": "اسبريسو", "nameEn": "Espresso", "price": 10 },
         { "name": "فلات وايت", "nameEn": "Flat White", "price": 14, "image": "images/products/espresso/02.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
         { "name": "كابتشينو", "nameEn": "Cappuccino", "price": 14, "image": "images/products/espresso/03.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
         { "name": "كورتادو", "nameEn": "Cortado", "price": 13, "image": "images/products/espresso/04.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
@@ -27,7 +30,8 @@
       "name": "قهوة اليوم",
       "nameEn": "Coffee of the Day",
       "items": [
-        { "name": "قهوة اليوم", "nameEn": "Coffee of the Day", "price": null, "image": "images/products/coffee-of-the-day/01.webp" }
+        { "name": "كوب القهوة حار", "nameEn": "Hot Coffee Cup", "price": 9, "image": "images/products/coffee-of-the-day/01.webp" },
+        { "name": "كوب قهوة بارد", "nameEn": "Iced Coffee Cup", "price": 9, "image": "images/products/coffee-of-the-day/01.webp" }
       ]
     },
     {
@@ -52,11 +56,11 @@
       "name": "الإضافات",
       "nameEn": "Extras",
       "items": [
-        { "name": "ماء", "nameEn": "Water", "price": 1},
-        { "name": "إضافة صوص", "nameEn": "Extra Sauce", "price": 4},
-        { "name": "دبل شوت اسبريسو", "nameEn": "Double Shot Espresso", "price": 10},
-        { "name": "كوب فارغ", "nameEn": "Empty Cup", "price": 1},
-        { "name": "جرام اضافي", "nameEn": "Extra Gram", "price": 1}
+        { "name": "ماء", "nameEn": "Water", "price": 1 },
+        { "name": "إضافة صوص", "nameEn": "Extra Sauce", "price": 4 },
+        { "name": "دبل شوت اسبريسو", "nameEn": "Double Shot Espresso", "price": 10 },
+        { "name": "كوب فارغ", "nameEn": "Empty Cup", "price": 1 },
+        { "name": "جرام اضافي", "nameEn": "Extra Gram", "price": 1 }
       ]
     },
     {
@@ -115,10 +119,12 @@
             { "name": "ماتشا فانيلا لاتيه", "nameEn": "Matcha Vanilla Latte", "price": 19, "image": "images/products/cold-drinks/15.webp", "allergens": "يحتوي على الحليب ومنتجاته" }
           ]
         },
-        { "name": "تارو", "nameEn": "Taro", "items": [] },
-        { "name": "الكولد برو", "nameEn": "Cold Brew", "items": [] }
+        {
+          "name": "الكولد برو",
+          "nameEn": "Cold Brew",
+          "items": []
+        }
       ]
-    },
-    { "id": "ice-cream", "name": "الآيس كريم", "nameEn": "Ice Cream", "items": [] }
+    }
   ]
 }
