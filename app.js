@@ -2,7 +2,7 @@
   'use strict';
 
   const LINKS = {
-    map: 'https://maps.app.goo.gl/4b192y152jt2RceVA',
+    map: 'https://maps.app.goo.gl/C7dFk2jf9vEh164W8',
     keeta: 'https://url.mykeeta.com/DDGFLk0z',
     whatsapp: 'https://wa.me/966537474706'
   };
