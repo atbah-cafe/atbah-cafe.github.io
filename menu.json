@@ -101,14 +101,18 @@
           "name": "مشروبات الحليب",
           "nameEn": "Milk Drinks",
           "items": [
+            { "name": "هوت شوكوليت", "nameEn": "Hot Chocolate", "price": 17, "image": "images/products/cold-drinks/13.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "كابتشينو", "nameEn": "Cappuccino", "price": 14, "image": "images/products/espresso/03.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "كورتادو", "nameEn": "Cortado", "price": 13, "image": "images/products/espresso/04.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "ماكياتو", "nameEn": "Macchiato", "price": 12, "image": "images/products/espresso/05.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "فلات وايت", "nameEn": "Flat White", "price": 14, "image": "images/products/espresso/02.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
             { "name": "سبانش لاتيه", "nameEn": "Spanish Latte", "price": "16–17", "image": "images/products/cold-drinks/06.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
-            { "name": "لاتيه", "nameEn": "Latte", "price": "15–16", "image": "images/products/cold-drinks/07.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "موكا", "nameEn": "Mocha", "price": "16–17", "image": "images/products/cold-drinks/11.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "وايت موكا", "nameEn": "White Mocha", "price": "16–17", "image": "images/products/cold-drinks/10.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
             { "name": "فانيلا لاتيه", "nameEn": "Vanilla Latte", "price": "16–17", "image": "images/products/cold-drinks/08.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
             { "name": "كراميل لاتيه", "nameEn": "Caramel Latte", "price": "16–17", "image": "images/products/cold-drinks/09.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
-            { "name": "وايت موكا", "nameEn": "White Mocha", "price": "16–17", "image": "images/products/cold-drinks/10.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
-            { "name": "موكا", "nameEn": "Mocha", "price": "16–17", "image": "images/products/cold-drinks/11.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
-            { "name": "ديرتي اسبريسو", "nameEn": "Dirty Espresso", "price": 17, "image": "images/products/cold-drinks/12.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
-            { "name": "هوت شوكوليت", "nameEn": "Hot Chocolate", "price": 17, "image": "images/products/cold-drinks/13.webp", "allergens": "يحتوي على الحليب ومنتجاته" }
+            { "name": "لاتيه", "nameEn": "Latte", "price": "15–16", "image": "images/products/cold-drinks/07.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "ديرتي اسبريسو", "nameEn": "Dirty Espresso", "price": 17, "image": "images/products/cold-drinks/12.webp", "allergens": "يحتوي على الحليب ومنتجاته" }
           ]
         },
         {

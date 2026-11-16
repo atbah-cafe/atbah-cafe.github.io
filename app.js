@@ -208,9 +208,10 @@
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then((data) => {
       sections = data.sections || [];
+      const seen = new Set();
       searchIndex = sections.flatMap((s) => sectionItems(s).map((item) => ({
         item, section: s, key: norm(`${item.name} ${item.nameEn || ''}`)
-      })));
+      }))).filter((e) => !seen.has(e.item.name) && seen.add(e.item.name));
       route();
     })
     .catch(() => {
