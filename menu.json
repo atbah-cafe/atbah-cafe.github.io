@@ -1,0 +1,81 @@
+{
+  "_تعليمات": "عدّل الأسعار من هنا. السعر: رقم مثل 14، أو نطاق بين علامتي تنصيص مثل \"16–17\"، أو null لإخفاء السعر. allergens: سطر الحساسية (احذفه إذا ما فيه). القسم بدون أصناف يظهر فيه «الأصناف تُضاف قريبًا».",
+  "sections": [
+    {
+      "id": "drip-coffee",
+      "name": "القهوة المقطرة",
+      "nameEn": "Filter Coffee",
+      "items": [
+        { "name": "قهوة مقطرة حارة", "nameEn": "Hot Filter Coffee", "price": null, "image": "images/products/drip-coffee/01.webp" },
+        { "name": "قهوة مقطرة باردة", "nameEn": "Iced Filter Coffee", "price": null, "image": "images/products/drip-coffee/02.webp" }
+      ]
+    },
+    {
+      "id": "espresso",
+      "name": "اسبريسو",
+      "nameEn": "Espresso",
+      "items": [
+        { "name": "اسبريسو", "nameEn": "Espresso", "price": null, "image": "images/products/espresso/01.webp" },
+        { "name": "فلات وايت", "nameEn": "Flat White", "price": 14, "image": "images/products/espresso/02.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+        { "name": "كابتشينو", "nameEn": "Cappuccino", "price": 14, "image": "images/products/espresso/03.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+        { "name": "كورتادو", "nameEn": "Cortado", "price": 13, "image": "images/products/espresso/04.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+        { "name": "ماكياتو", "nameEn": "Macchiato", "price": 12, "image": "images/products/espresso/05.webp", "allergens": "يحتوي على الحليب ومنتجاته" }
+      ]
+    },
+    {
+      "id": "coffee-of-the-day",
+      "name": "قهوة اليوم",
+      "nameEn": "Coffee of the Day",
+      "items": [
+        { "name": "قهوة اليوم", "nameEn": "Coffee of the Day", "price": null, "image": "images/products/coffee-of-the-day/01.webp" }
+      ]
+    },
+    { "id": "desserts", "name": "الحلويات", "nameEn": "Desserts", "items": [] },
+    { "id": "extras", "name": "الإضافات", "nameEn": "Extras", "items": [] },
+    { "id": "gatherings", "name": "جمعات عتبة", "nameEn": "Atbah Gatherings", "items": [] },
+    { "id": "celebrations", "name": "احتفالات عتبة", "nameEn": "Atbah Celebrations", "items": [] },
+    {
+      "id": "cold-drinks",
+      "name": "المشروبات الباردة",
+      "nameEn": "Cold Drinks",
+      "groups": [
+        {
+          "name": "مشروبات باردة",
+          "nameEn": "Cold Drinks",
+          "items": [
+            { "name": "موهيتو سيجنتشر", "nameEn": "Signature Mojito", "price": 18, "image": "images/products/cold-drinks/01.webp" },
+            { "name": "موهيتو توت أزرق", "nameEn": "Blueberry Mojito", "price": 16, "image": "images/products/cold-drinks/02.webp" },
+            { "name": "موهيتو باشن فروت", "nameEn": "Passion Fruit Mojito", "price": 16, "image": "images/products/cold-drinks/03.webp" },
+            { "name": "أيس تي بالخوخ", "nameEn": "Peach Iced Tea", "price": 16, "image": "images/products/cold-drinks/04.webp" },
+            { "name": "كركديه", "nameEn": "Hibiscus", "price": 14, "image": "images/products/cold-drinks/05.webp" }
+          ]
+        },
+        {
+          "name": "مشروبات الحليب",
+          "nameEn": "Milk Drinks",
+          "items": [
+            { "name": "سبانش لاتيه", "nameEn": "Spanish Latte", "price": "16–17", "image": "images/products/cold-drinks/06.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "لاتيه", "nameEn": "Latte", "price": "15–16", "image": "images/products/cold-drinks/07.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "فانيلا لاتيه", "nameEn": "Vanilla Latte", "price": "16–17", "image": "images/products/cold-drinks/08.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "كراميل لاتيه", "nameEn": "Caramel Latte", "price": "16–17", "image": "images/products/cold-drinks/09.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "وايت موكا", "nameEn": "White Mocha", "price": "16–17", "image": "images/products/cold-drinks/10.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "موكا", "nameEn": "Mocha", "price": "16–17", "image": "images/products/cold-drinks/11.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "ديرتي اسبريسو", "nameEn": "Dirty Espresso", "price": 17, "image": "images/products/cold-drinks/12.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "هوت شوكوليت", "nameEn": "Hot Chocolate", "price": 17, "image": "images/products/cold-drinks/13.webp", "allergens": "يحتوي على الحليب ومنتجاته" }
+          ]
+        },
+        {
+          "name": "الماتشا",
+          "nameEn": "Matcha",
+          "items": [
+            { "name": "ماتشا لاتيه", "nameEn": "Matcha Latte", "price": 18, "image": "images/products/cold-drinks/14.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
+            { "name": "ماتشا فانيلا لاتيه", "nameEn": "Matcha Vanilla Latte", "price": 19, "image": "images/products/cold-drinks/15.webp", "allergens": "يحتوي على الحليب ومنتجاته" }
+          ]
+        },
+        { "name": "تارو", "nameEn": "Taro", "items": [] },
+        { "name": "الكولد برو", "nameEn": "Cold Brew", "items": [] }
+      ]
+    },
+    { "id": "ice-cream", "name": "الآيس كريم", "nameEn": "Ice Cream", "items": [] }
+  ]
+}
