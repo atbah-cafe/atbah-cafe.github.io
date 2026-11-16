@@ -30,7 +30,7 @@
 
 `#drip-coffee` · `#espresso` · `#coffee-of-the-day` · `#desserts` · `#extras` · `#gatherings` · `#celebrations` · `#cold-drinks` · `#ice-cream`
 
-مثال: `https://shiii8a-mla.github.io/-/#espresso`
+مثال: `https://atbah-cafe.github.io/#espresso`
 
 ## النشر المجاني على GitHub Pages
 
@@ -39,10 +39,9 @@
 3. تحت **Build and deployment** اختر **Source: Deploy from a branch**.
 4. اختر الفرع **main** والمجلد **/ (root)** ثم **Save**.
 5. انتظر دقيقة أو دقيقتين. يطلع لك الرابط فوق الصفحة، وغالبًا يكون:
-   **https://shiii8a-mla.github.io/-/**
+   **https://atbah-cafe.github.io/**
 
 > ملاحظة: المستودع خاص؟ GitHub Pages للمستودعات الخاصة يحتاج اشتراك مدفوع. في الحساب المجاني خلّ المستودع عام (Public).
-> اسم المستودع `-` يشتغل، بس إذا تبغى رابط أوضح غيّر اسمه من **Settings ← General** (مثلًا `atbah-menu`)، ويصير الرابط `https://shiii8a-mla.github.io/atbah-menu/`. وقتها لازم تسوي كود QR جديد.
 
 ### تجربة الموقع على جهازك
 
@@ -56,7 +55,7 @@ python3 -m http.server 8000
 
 ## كود QR
 
-- **الجاهز**: الملف `qr-menu.png` يودي إلى `https://shiii8a-mla.github.io/-/`. **امسحه بجوالك بعد النشر وتأكد إنه يفتح المنيو** قبل ما تطبعه.
+- **الجاهز**: الملف `qr-menu.png` يودي إلى `https://atbah-cafe.github.io/`. **امسحه بجوالك بعد النشر وتأكد إنه يفتح المنيو** قبل ما تطبعه.
 - **لو تغيّر الرابط**، سو كود جديد بأي طريقة من هذي:
   - **Chrome على الكمبيوتر**: افتح الموقع ← زر المشاركة/المزيد بجانب شريط الرابط ← **Create QR code** ← **Download**.
   - **موقع مجاني** مثل https://www.qr-code-generator.com أو https://goqr.me: الصق الرابط واختر **Static QR** (الثابت ما ينتهي)، ونزّله بصيغة **PNG** أو **SVG** للطباعة.
