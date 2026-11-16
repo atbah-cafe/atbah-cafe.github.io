@@ -34,7 +34,7 @@
 
 ## النشر المجاني على GitHub Pages
 
-1. ادمج الفرع `claude/atbah-cafe-digital-menu-t4cfsz` في `main` (من Pull Request ثم **Merge**).
+1. تأكد إن كل التعديلات موجودة في الفرع `main`.
 2. في المستودع افتح **Settings ← Pages**.
 3. تحت **Build and deployment** اختر **Source: Deploy from a branch**.
 4. اختر الفرع **main** والمجلد **/ (root)** ثم **Save**.
