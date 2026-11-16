@@ -122,11 +122,6 @@
             { "name": "ماتشا لاتيه", "nameEn": "Matcha Latte", "price": 18, "image": "images/products/cold-drinks/14.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
             { "name": "ماتشا فانيلا لاتيه", "nameEn": "Matcha Vanilla Latte", "price": 19, "image": "images/products/cold-drinks/15.webp", "allergens": "يحتوي على الحليب ومنتجاته" }
           ]
-        },
-        {
-          "name": "الكولد برو",
-          "nameEn": "Cold Brew",
-          "items": []
         }
       ]
     }
