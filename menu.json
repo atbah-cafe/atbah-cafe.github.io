@@ -16,9 +16,9 @@
       "nameEn": "Espresso",
       "items": [
         { "name": "امريكانو", "nameEn": "Americano", "price": "10–12", "image": "images/products/drip-coffee/01.webp" },
-        { "name": "الفريدو", "nameEn": "Freddo", "price": 13 },
+        { "name": "الفريدو", "nameEn": "Freddo", "price": 13, "image": "images/products/espresso/freddo.webp" },
         { "name": "اسبريسو فاخر", "nameEn": "Premium Espresso", "price": 18, "image": "images/products/espresso/01.webp" },
-        { "name": "اسبريسو", "nameEn": "Espresso", "price": 10 },
+        { "name": "اسبريسو", "nameEn": "Espresso", "price": 10, "image": "images/products/espresso/espresso.webp" },
         { "name": "فلات وايت", "nameEn": "Flat White", "price": 14, "image": "images/products/espresso/02.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
         { "name": "كابتشينو", "nameEn": "Cappuccino", "price": 14, "image": "images/products/espresso/03.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
         { "name": "كورتادو", "nameEn": "Cortado", "price": 13, "image": "images/products/espresso/04.webp", "allergens": "يحتوي على الحليب ومنتجاته" },
